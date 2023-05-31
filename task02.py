@@ -9,7 +9,7 @@
 
 n=int(input('Введите N: '))
 a=list(range(1,n+1))
-print(a)
+print(*a)
 x=int(input('Введите Х: '))
 res=0
 
@@ -17,7 +17,7 @@ if x>n:
    res=n
 elif x>0 and x<n:
     res=x-1
-else: #if x<=0:
+else: 
     res=1
 print(res)
     
