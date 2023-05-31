@@ -7,3 +7,11 @@
 #     3
 #     -> 1
 
+n=int(input('Введите N: '))
+a=list(range(1,n+1))
+print(a)
+x=int(input('Введите Х: '))
+if x > 0 and x < n:
+    print(1)
+else:
+    print(0)
